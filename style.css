@@ -1,0 +1,49 @@
+nav {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    }
+      
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+      
+nav li a.active {
+    background-color: #04AA6D;
+    color: white;
+    }
+      
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    }
+
+li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer ;
+}   
+
+a:link:active, a:visited:active {
+    color: red;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(17, 153, 216);
+    color: white;
+    text-align:unset;
+  }
